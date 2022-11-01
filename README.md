@@ -18,17 +18,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-## Folder Structure
-
-Folder structure of this project for your reference   
-```
-├── ...
-│   ├── ...
-│   ├── ...
-└── .gitignore
-└── ....
-```
-
 ##  License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/thisiskushal31/portfolio/blob/main/LICENSE) file for details.
