@@ -1,35 +1,32 @@
-import React from 'react';
+import { useContext } from 'react'
+import { ThemeContext } from './contexts/theme'
+import Header from './components/Header/Header'
+import About from './components/About/About'
+import Projects from './components/Projects/Projects'
+import Skills from './components/Skills/Skills'
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+import Contact from './components/Contact/Contact'
+import Footer from './components/Footer/Footer'
+import './App.css'
 
-import Home from './Pages/Home';
-import About from './Pages/About';
-import Education from './Pages/Education';
-import Skills from './Pages/Skills';
-import Project from './Pages/Project';
-import Contact from './Pages/Contacts';
+const App = () => {
+  const [{ themeName }] = useContext(ThemeContext)
 
-import './Styles/main.scss';
-
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
-// Home About Education Skills Project Contacts
-
-function App() {
   return (
-    <>
-      <BrowserRouter>
-        <div className="container">
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
-            <Route path="/education" element={<Education />} />
-            <Route path="/skills" element={<Skills />} />
-            <Route path="/projects" element={<Project />} />
-            <Route path="/contacts" element={<Contact />} />
-          </Routes>
-        </div>
-      </BrowserRouter>
-    </>
-  );
+    <div id='top' className={`${themeName} app`}>
+      <Header />
+
+      <main>
+        <About />
+        <Projects />
+        <Skills />
+        <Contact />
+      </main>
+
+      <ScrollToTop />
+      <Footer />
+    </div>
+  )
 }
 
-export default App;
+export default App
