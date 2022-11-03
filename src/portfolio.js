@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://github.com/thisiskushal31',
+  homepage: 'https://kushalgupta.netlify.app/',
   title: 'KG.',
 }
 
@@ -8,10 +8,11 @@ const about = {
   role: 'Full Stack Developer and Cloud Enthusiast',
   description:
     'I am an final year undergraduate student based in India who is passionate about developing Full-Stack Applications and is interested in DevOps and Cloud technologies. Besides that, I seek to explore a variety of cutting-edge cloud technologies in the software development industry.',
-  resume: '/resume',
+  resume: 'https://drive.google.com/file/d/1SxQ4V3ZuWHtT1Y2gwaklzNFiQf6Q-6Mt/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/thisiskushalgupta/',
     github: 'https://github.com/thisiskushal31',
+    external: 'https://linktr.ee/thisiskushalgupta',
   },
 }
 
@@ -30,7 +31,7 @@ const projects = [
       'SocialSplit is a real-time chat application built on the backend with NodeJS, Express, and Socket.io and the frontend with React.',
     stack: ['ChakraUI', 'ReactJS', 'Socket.io', 'MongoDB'],
     sourceCode: 'https://github.com/thisiskushal31/SocialSplit',
-    livePreview: 'https://github.com',
+    livePreview: 'https://youtu.be/AIHm5PXM_GA',
   },
   {
     name: 'LinkSaver Chrome Extension',
@@ -57,13 +58,12 @@ const skills = [
   'Git',
   'CI/CD',
   'Docker',
-  'Kubernates',
-  'Google Cloud',
-  'AWS',
+  'Kubernetes',
+  'Google Cloud Platform',
+  'AWS'
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'guptakushal070@gmail.com',
 }
 

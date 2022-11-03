@@ -1,5 +1,6 @@
 import GitHubIcon from '@material-ui/icons/GitHub'
 import LinkedInIcon from '@material-ui/icons/LinkedIn'
+import LaunchIcon from '@material-ui/icons/Launch';
 import { about } from '../../portfolio'
 import './About.css'
 
@@ -45,6 +46,15 @@ const About = () => {
                 className='link link--icon'
               >
                 <LinkedInIcon />
+              </a>
+            )}
+            {social.external && (
+              <a 
+                href={social.external}
+                aria-label='external'
+                className='link link--icon'
+              >
+                <LaunchIcon />
               </a>
             )}
           </>

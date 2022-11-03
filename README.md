@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Kushal Gupta's Portfolio 👋💻</h1>
   <h3>Live Portfolio Website : <a href="#">Click Here!</a></h3>
-</div>
+</div>    
 
 <br>
 
@@ -18,6 +18,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+## Hosted/Live Website
+![Netlify Status](https://api.netlify.com/api/v1/badges/8839dd4e-90b8-4d53-94f4-96fc5dbbdf10/deploy-status)
+
+And here is hosted link: [https://kushalgupta.netlify.app/](https://kushalgupta.netlify.app/)
 ##  License
 
 This project is licensed under the MIT License - see the [LICENSE](https://github.com/thisiskushal31/portfolio/blob/main/LICENSE) file for details.
