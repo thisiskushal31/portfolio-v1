@@ -1,5 +1,5 @@
 const header = {
-  homepage: 'https://kushalgupta.netlify.app/',
+  homepage: '/',
   title: 'KG.',
 }
 
@@ -8,7 +8,7 @@ const about = {
   role: 'Full Stack Developer and Cloud Enthusiast',
   description:
     'I am an final year undergraduate student based in India who is passionate about developing Full-Stack Applications and is interested in DevOps and Cloud technologies. Besides that, I seek to explore a variety of cutting-edge cloud technologies in the software development industry.',
-  resume: 'https://drive.google.com/file/d/1SxQ4V3ZuWHtT1Y2gwaklzNFiQf6Q-6Mt/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1ReneEny0T9KiNwLjUVxLw96yPcRsNmkf/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/thisiskushalgupta/',
     github: 'https://github.com/thisiskushal31',
