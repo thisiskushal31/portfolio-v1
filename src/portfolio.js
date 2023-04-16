@@ -8,13 +8,24 @@ const about = {
   role: 'Full Stack Developer and Cloud Enthusiast',
   description:
     'I am an final year undergraduate student based in India who is passionate about developing Full-Stack Applications and is interested in DevOps and Cloud technologies. Besides that, I seek to explore a variety of cutting-edge cloud technologies in the software development industry.',
-  resume: 'https://drive.google.com/file/d/1ReneEny0T9KiNwLjUVxLw96yPcRsNmkf/view?usp=sharing',
+  // resume: 'https://drive.google.com/file/d/1ReneEny0T9KiNwLjUVxLw96yPcRsNmkf/view?usp=sharing',
   social: {
     linkedin: 'https://www.linkedin.com/in/thisiskushalgupta/',
     github: 'https://github.com/thisiskushal31',
     external: 'https://linktr.ee/thisiskushalgupta',
   },
 }
+
+const experiences = [
+  {
+    name: 'Agility',
+    description:
+      'Agilty is a task management tool that allows you to plan, organise, and prioritise all of your tasks so that you can complete them in the shortest amount of time possible built using ReactJS on the frontend and MongoDB on the backend.',
+    stack: ['SASS', 'ReactJS', 'MongoDB'],
+    sourceCode: 'https://github.com/thisiskushal31/Agility',
+    livePreview: 'https://youtu.be/v2W6W7GKgro',
+  },
+]
 
 const projects = [
   {
